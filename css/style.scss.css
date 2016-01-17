@@ -1,0 +1,103 @@
+h1 {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 3.5em;
+  text-transform: uppercase; }
+
+h2 {
+  color: white;
+  font-family: 'Oswald';
+  font-weight: 100;
+  font-size: 2.1em;
+  text-align: center; }
+
+.main-header {
+  height: 50em;
+  width: 100%;
+  background: url("../images/header-bg-temp-4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+nav {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  fill-opacity: 50%; }
+  nav ul {
+    text-align: center;
+    padding: 16px; }
+    nav ul li {
+      display: inline-block;
+      text-align: center; }
+      nav ul li a {
+        padding: 16px;
+        color: white;
+        text-decoration: none;
+        font-family: 'Oswald';
+        font-weight: 400; }
+
+.main-content {
+  background: #EEEEEE; }
+
+article {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto; }
+  article header {
+    padding-top: 3em;
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-align: center; }
+    article header h3 {
+      font-size: 3em;
+      text-transform: uppercase; }
+  article section {
+    color: black;
+    text-decoration: none;
+    text-align: justify;
+    font-family: 'Roboto';
+    font-weight: 300; }
+    article section p {
+      margin: 15px 0; }
+    article section div {
+      margin: 15px 0; }
+    article section h3 {
+      width: 100%;
+      text-align: center;
+      font-weight: 700;
+      font-size: 1.8em;
+      text-transform: uppercase; }
+    article section h4 {
+      width: 100%;
+      text-align: center;
+      font-weight: 700;
+      font-size: 1.2em;
+      text-transform: uppercase; }
+    article section img {
+      width: 80%;
+      text-align: center;
+      padding: 10% 10%; }
+
+.collumn-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative; }
+
+.collumn {
+  width: 30%;
+  padding: 1%;
+  vertical-align: top;
+  display: inline-block; }
+
+.circle-title {
+  padding: 4em 2em;
+  border-radius: 50%;
+  border: 2px solid orangered;
+  color: orangered; }
+
+/*# sourceMappingURL=style.scss.css.map */
